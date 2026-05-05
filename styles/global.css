@@ -10,7 +10,7 @@
   --text-sm: 400 0.875rem/1.4 var(--font-family);
 
   --text-primary: #292524;
-  --text—secondary: #57534e;
+  --text-secondary: #57534e;
   --text-tertiary: #8f8881;
   --text-highlight: #e43a12;
 
@@ -19,7 +19,7 @@
   --surface-disabled: #e7e5e4;
 
   --stroke-default: #d6d3d1;
-  --stroke—hightlight: #f3541c;
+  --stroke-highlight: #f3541c;
   --semantic-error: #dc2626;
 }
 

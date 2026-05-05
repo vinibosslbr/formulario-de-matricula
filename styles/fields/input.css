@@ -3,7 +3,7 @@ textarea,
 select {
   appearance: none;
   width: 100%;
-  border-radius: 3rem;
+  border-radius: 0.5rem;
   border: 1px solid var(--stroke-default);
 
   padding: 0.75rem 1rem;

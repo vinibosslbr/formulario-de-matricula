@@ -48,7 +48,7 @@
               </div>
 
               <div class="input-wrapper">
-                <label for="birth">Data de Nascimento</label>
+                <label for="birth">Data de nascimento</label>
                 <input name="birth" id="birth" type="date" lang="pt-br" />
               </div>
 
@@ -74,7 +74,7 @@
 
               <div class="droparea-wrapper">
                 <div class="dropzone">
-                  <label for="birth-file">Certidão de Nascimento</label>
+                  <label for="birth-file">Certidão de nascimento</label>
                   <input type="file" name="birth-file" id="birth-file" />
 
                   <svg
@@ -109,7 +109,7 @@
             </fieldset>
 
             <fieldset class="address">
-              <legend>Endereço Residencial</legend>
+              <legend>Endereço residencial</legend>
 
               <div class="input-wrapper">
                 <label for="cep">CEP </label>
@@ -152,6 +152,40 @@
                     disabled
                     value="São Paulo"
                   />
+                </div>
+              </div>
+            </fieldset>
+
+            <fieldset class="guardian">
+              <legend>Informações do responsável</legend>
+
+              <div class="input-wrapper">
+                <label for="guardian">Nome do responsável</label>
+                <input type="text" id="guardian" name="guardian" />
+                <small
+                  >Principal responsável legal e contato de emergência</small
+                >
+              </div>
+
+              <div class="input-wrapper">
+                <label for="phone">Telefone</label>
+                <input
+                  type="text"
+                  id="phone"
+                  name="phone"
+                  placeholder="(10) 9 8765-4321"
+                />
+              </div>
+
+              <div class="input-wrapper">
+                <label for="mail">E-mail</label>
+                <input type="email" id="mial" name="mail" required />
+                <div class="error">
+                  <img
+                    src="assets/icons/alert-circle.svg"
+                    alt="Icone de alerta"
+                  />
+                  <span>Insira um e-mail válido</span>
                 </div>
               </div>
             </fieldset>
